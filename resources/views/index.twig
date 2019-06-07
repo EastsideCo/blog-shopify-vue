@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <p>This is an example Shopify APP page!</p>
+    <p>This is an example Shopify App page test</p>
     {% for product in products %}
         This product is called: {{ product.title }}</br>
     {% endfor %}
+    <div id="app">
+        <example-component></example-component>
+    </div>
+    <script src="{{ asset('js/app.js') }}"></script>
 </html>

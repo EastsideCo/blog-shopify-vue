@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My VueJs app</title>
+        <link rel="stylesheet" href="/public/css/app.css"/>
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+    </head>
+    <body>
+        <div id="app">
+            <app-entry></app-entry>
+        </div>
+        <script src="{{ asset('js/app.js') }}"></script>
+    </body>
+</html>

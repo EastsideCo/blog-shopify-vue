@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/index', 'ShopifyController@index');
+
+Route::get('/vueapp', 'ShopifyController@vueapp');
